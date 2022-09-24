@@ -1,5 +1,4 @@
 #!/usr/bin/python3 
-# clicking on the browser 
 import pyautogui
 import time 
 import sys
@@ -36,8 +35,6 @@ def click(times):
 
 def check_text():
   print("testing the check text")
-
-
 
 if __name__ == "__main__":
   #get_display_position()

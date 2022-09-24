@@ -1,0 +1,31 @@
+{
+"id": "string (identifier)",
+"replyToId": "string (identifier)",
+"from": {"@odata.type": "microsoft.graph.identitySet"},
+"etag": "string",
+"messageType": "string",
+"createdDateTime": "string (timestamp)",
+"lastModifiedDateTime": "string (timestamp)",
+"deletedDateTime": "string (timestamp)",
+"subject": "string",
+"from": {
+                "application": null,
+                "device": null,
+                "conversation": null,
+                "user": {
+
+                    "id": \[{"@odata.type": "microsoft.graph.user"}\],
+                    "displayName": "User Name",
+
+                    "userIdentityType": "aadUser"                }
+            },
+"body": {"@odata.type": "microsoft.graph.itemBody"},
+"summary": "string",
+
+"chatId": \[{"@odata.type": "microsoft.graph.chat"}\]
+
+"attachments": \[{"@odata.type": "microsoft.graph.chatMessageAttachment"}\],
+"mentions": \[{"@odata.type": "microsoft.graph.chatMessageMention"}\],
+"importance": "string",
+"locale": "string",
+}
